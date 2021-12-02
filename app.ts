@@ -14,7 +14,7 @@ const person:{
 
 let favoriteActivities:string;
 favoriteActivities ='hiking';
-person.role.push('users');
+
 person.hobbies.push(favoriteActivities);
 for (const hobby of person.role){
     console.log(hobby);
